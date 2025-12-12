@@ -1,15 +1,16 @@
-### DevCaseStudy - Tiago Leal
+## DevCaseStudy - Tiago Leal
 
-In order to Start, 
+### 1 - Setup Instructions
+
 1. deploy the force-app contents to an org
-2. configure digital experieces
-3. configure public access for the digital experience
-3. configure public access for sites
-4. Create new page for the digital experiences
-5. Drag n drop the component `Dev - Application Form` to the page
+2. Enable/Configure digital experieces
+3. Configure public access for the digital experiences
+4. Configure public access for sites
+5. Create new page for the digital experiences
+6. Drag n drop the component `Dev - Application Form` to the page
+7. Set page as public in Digital Experiences > Builder > Navigation > Public Available
 
-
-### Testing the public Webhook
+### 2 - Testing the public Webhook
 
 1. One can use the following request:
 ```bash
@@ -35,3 +36,19 @@ curl -v -H "Content-Type: application/json" -X POST \
 * Connection #0 to host orgfarm-fadf428d4e-dev-ed.develop.my.site.com left intact
 {"success":true,"recordType":"Lead","recordId":"00QdL00000UNS3xUAH","message":"Lead created successfully with Id: 00QdL00000UNS3xUAH"}%              
 ```
+
+### 3 - Code Coverage
+
+
+### 4 - Deliverables
+1. Apex:
+     [ApplicationFormController]()
+     [ApplicationWebhook]()
+     [ApplicationProcessingService]()
+     [DTO + wrapper classes](https://github.com/tibeal/devCaseStudy/tree/master/force-app/main/default/classes)
+     [Test class(es)]()
+          [ApplicationFormControllerTest](https://github.com/tibeal/devCaseStudy/blob/master/force-app/main/default/classes/ApplicationFormControllerTest.cls)
+2. LWC:
+     applicationForm.html
+     applicationForm.js
+     applicationForm.js-meta.xml

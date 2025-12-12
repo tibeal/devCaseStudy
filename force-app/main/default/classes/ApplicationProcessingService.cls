@@ -9,14 +9,11 @@ public with sharing class ApplicationProcessingService {
             throw new IllegalArgumentException('Payload cannot be null');
         }
 
+        List<Account> existingAccount;
         if (String.isBlank(payload.federalTaxId)) {
-            throw new IllegalArgumentException('Federal Tax ID is required');
-        }
-
-        List<Account> existingAccount = [SELECT Id FROM Account WHERE Federal_Tax_ID__c = :payload.federalTaxId LIMIT 1];
-
-        if (existingAccount.isEmpty()) {
             existingAccount = [SELECT Id FROM Account WHERE Name = :payload.companyName LIMIT 1];
+        } else {
+            existingAccount = [SELECT Id FROM Account WHERE Federal_Tax_ID__c = :payload.federalTaxId LIMIT 1];
         }
 
         ApplicationResult result = new ApplicationResult();
