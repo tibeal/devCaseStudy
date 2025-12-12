@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ApplicationForm</fullName>
+        <categories>applicationForm.js</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ApplicationForm</shortDescription>
+        <value>Application Form</value>
+    </labels>
+    <labels>
+        <fullName>CompanyName</fullName>
+        <categories>applicationForm.js</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CompanyName</shortDescription>
+        <value>Company Name</value>
+    </labels>
+    <labels>
+        <fullName>FederalTaxId</fullName>
+        <categories>applicationForm.js</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FederalTaxId</shortDescription>
+        <value>Federal Tax ID</value>
+    </labels>
+    <labels>
+        <fullName>ContactFirstName</fullName>
+        <categories>applicationForm.js</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ContactFirstName</shortDescription>
+        <value>Contact First Name</value>
+    </labels>
+    <labels>
+        <fullName>ContactLastName</fullName>
+        <categories>applicationForm.js</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ContactLastName</shortDescription>
+        <value>Contact Last Name</value>
+    </labels>
+    <labels>
+        <fullName>Email</fullName>
+        <categories>applicationForm.js</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Phone</fullName>
+        <categories>applicationForm.js</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Phone</shortDescription>
+        <value>Phone</value>
+    </labels>
+    <labels>
+        <fullName>AnnualRevenue</fullName>
+        <categories>applicationForm.js</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AnnualRevenue</shortDescription>
+        <value>Annual Revenue</value>
+    </labels>
+    <labels>
+        <fullName>Submit</fullName>
+        <categories>applicationForm.js</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+</CustomLabels>

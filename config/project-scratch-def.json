@@ -1,0 +1,45 @@
+{
+    "orgName": "tiagoleal company",
+    "edition": "Developer",
+    "settings": {
+        "chatterSettings": {
+            "enableChatter": true
+        },
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "languageSettings": {
+            "enableTranslationWorkbench": true
+        },
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        },
+        "experienceBundleSettings": {
+            "enableExperienceBundleMetadata": true
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": false
+        },
+        "apexSettings": {
+            "enableAggregateCodeCoverageOnly": true
+        },
+        "securitySettings": {
+            "enableAdminLoginAsAnyUser": true,
+            "sessionSettings": {
+                "forceRelogin": false,
+                "lockerServiceNext": false
+            }
+        },
+        "deploymentSettings": {
+            "doesSkipAsyncApexValidation": true
+        }
+    },
+    "features": [
+        "AuthorApex",
+        "Communities",
+        "PlatformCache"
+    ],
+    "hasSampleData": true,
+    "language": "en_US",
+    "country": "US"
+}

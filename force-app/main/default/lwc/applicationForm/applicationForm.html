@@ -1,0 +1,57 @@
+<template>
+    <div class="slds-size_1-of-1">
+        <lightning-layout horizontal-align="center" class="slds-m-around_medium">
+            <lightning-layout-item size="5">
+                <lightning-card variant="narrow" title={labels.ApplicationFormTitle} icon-name="utility:edit_form" class="slds-m-top_medium">
+                    <lightning-spinner if:true={loading} alternative-text="Loading" size="small"></lightning-spinner>
+                    <lightning-layout multiple-rows="true">
+                        <lightning-layout-item size="12" class="slds-p-around_medium">
+                            <lightning-layout>
+                                <lightning-layout-item size="6">
+                                    <lightning-input class="form-field slds-p-around_medium" required="true" name="companyName" label={labels.CompanyName}></lightning-input>
+                                </lightning-layout-item>
+                                <lightning-layout-item size="6">
+                                    <lightning-input class="form-field slds-p-around_medium" required="true" name="federalTaxId" label={labels.FederalTaxId}></lightning-input>
+                                </lightning-layout-item>
+                            </lightning-layout>
+                        </lightning-layout-item>
+                        <lightning-layout-item size="12" class="slds-p-around_medium">
+                            <lightning-layout>
+                                <lightning-layout-item size="6">
+                                    <lightning-input class="form-field slds-p-around_medium" required="true" name="firstName" label={labels.ContactFirstName}></lightning-input>
+                                </lightning-layout-item>
+                                <lightning-layout-item size="6">
+                                    <lightning-input class="form-field slds-p-around_medium" required="true" name="lastName" label={labels.ContactLastName}></lightning-input>
+                                </lightning-layout-item>
+                            </lightning-layout>
+                        </lightning-layout-item>
+                        <lightning-layout-item size="12" class="slds-p-around_medium">
+                            <lightning-layout>
+                                <lightning-layout-item size="6">
+                                    <lightning-input class="form-field slds-p-around_medium" required="true" type="email" name="email" label={labels.Email}></lightning-input>
+                                </lightning-layout-item>
+                                <lightning-layout-item size="6">
+                                    <lightning-input class="form-field slds-p-around_medium" required="true" name="phone" label={labels.Phone}></lightning-input>
+                                </lightning-layout-item>
+                            </lightning-layout>
+                        </lightning-layout-item>
+                        <lightning-layout-item size="12" class="slds-p-around_medium">
+                            <lightning-layout>
+                                <lightning-layout-item size="12">
+                                    <lightning-input class="form-field slds-p-around_medium" type="number" name="annualRevenue" label={labels.AnnualRevenue}></lightning-input>
+                                </lightning-layout-item>
+                            </lightning-layout>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                    <lightning-layout horizontal-align="center">
+                        <lightning-layout-item>
+                            <lightning-button variant="brand"
+                                class="button" label={labels.Submit}
+                                onclick={handleSubmit}> </lightning-button>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-card>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>
