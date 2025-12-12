@@ -50,6 +50,6 @@ curl -v -H "Content-Type: application/json" -X POST \
         - [ApplicationFormControllerTest](https://github.com/tibeal/devCaseStudy/blob/master/force-app/main/default/classes/ApplicationFormControllerTest.cls)
         - [ApplicationWebhookTest](https://github.com/tibeal/devCaseStudy/blob/master/force-app/main/default/classes/ApplicationWebhookTest.cls)
 2. LWC:
-     applicationForm.html
-     applicationForm.js
-     applicationForm.js-meta.xml
+- [applicationForm.html](https://github.com/tibeal/devCaseStudy/blob/master/force-app/main/default/lwc/applicationForm/applicationForm.html)
+- [applicationForm.js](https://github.com/tibeal/devCaseStudy/blob/master/force-app/main/default/lwc/applicationForm/applicationForm.js)
+- [applicationForm.js-meta.xml](https://github.com/tibeal/devCaseStudy/blob/master/force-app/main/default/lwc/applicationForm/applicationForm.js-meta.xml)
