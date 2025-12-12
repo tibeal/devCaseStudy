@@ -59,6 +59,7 @@ https://orgfarm-fadf428d4e-dev-ed.develop.my.site.com/s/application-form
 
 ### Assumptions
 - security checks are not a requirement for this POC
+- had to setup sharing access to guest user
 - configuring community and sites for public access is common knowledge
 - the webhook is a public facing endpoint (thru salesforce sites) that accepts POST messages and handle according to the requirements
 
