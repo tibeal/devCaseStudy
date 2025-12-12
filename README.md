@@ -63,4 +63,4 @@ https://orgfarm-fadf428d4e-dev-ed.develop.my.site.com/s/application-form
 - the webhook is a public facing endpoint (thru salesforce sites) that accepts POST messages and handle according to the requirements
 
 ### Demo Video
-[![DevStudyDemo](https://github.com/tibeal/images/blob/master/image-17.png?raw=true](https://vimeo.com/1146093192?fl=pl&fe=sh "DEMO")
+[![DevStudyDemo](https://github.com/tibeal/images/blob/master/image-17.png?raw=true)](https://vimeo.com/1146093192?fl=pl&fe=sh "DEMO")
