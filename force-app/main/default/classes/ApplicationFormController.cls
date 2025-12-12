@@ -1,4 +1,4 @@
-public with sharing class ApplicationFormController {
+public class ApplicationFormController {
 
     @AuraEnabled
     public static ApplicationResult submitApplication(ApplicationDTO input) {

@@ -54,7 +54,12 @@ curl -v -H "Content-Type: application/json" -X POST \
 - [applicationForm.js](https://github.com/tibeal/devCaseStudy/blob/master/force-app/main/default/lwc/applicationForm/applicationForm.js)
 - [applicationForm.js-meta.xml](https://github.com/tibeal/devCaseStudy/blob/master/force-app/main/default/lwc/applicationForm/applicationForm.js-meta.xml)
 
+### 5 - Application Form Public Site
+https://orgfarm-fadf428d4e-dev-ed.develop.my.site.com/s/application-form
+
 ### Assumptions
 - security checks are not a requirement for this POC
 - configuring community and sites for public access is common knowledge
 - the webhook is a public facing endpoint (thru salesforce sites) that accepts POST messages and handle according to the requirements
+
+### Demo Video

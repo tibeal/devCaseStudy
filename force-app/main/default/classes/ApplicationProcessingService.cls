@@ -1,4 +1,4 @@
-public with sharing class ApplicationProcessingService {
+public class ApplicationProcessingService {
 
     public class IllegalArgumentException extends Exception {}
     public class IllegalStateException extends Exception {}
@@ -10,10 +10,10 @@ public with sharing class ApplicationProcessingService {
         }
 
         List<Account> existingAccount;
-        if (String.isBlank(payload.federalTaxId)) {
-            existingAccount = [SELECT Id FROM Account WHERE Name = :payload.companyName LIMIT 1];
-        } else {
+        if (String.isNotBlank(payload.federalTaxId)) {
             existingAccount = [SELECT Id FROM Account WHERE Federal_Tax_ID__c = :payload.federalTaxId LIMIT 1];
+        } else {
+            existingAccount = [SELECT Id FROM Account WHERE Name = :payload.companyName LIMIT 1];
         }
 
         ApplicationResult result = new ApplicationResult();
